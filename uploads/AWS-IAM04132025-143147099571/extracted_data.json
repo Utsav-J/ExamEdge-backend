@@ -1,0 +1,239 @@
+{
+    "document_title": "Extracted Report",
+    "sections": [
+        {
+            "page": 1,
+            "text": "AWS IAM",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_1_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_1_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_1_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 2,
+            "text": "What is AWS IAM? \n\u2022\nAWS Identity and Access \nManagement (IAM) enables you \nto manage access to AWS \nservices and resources securely. \nUsing IAM, you can create and \nmanage AWS users and groups, \nand use permissions to allow \nand deny their access to AWS \nresources.  \n\u2022\nIAM is a feature of your AWS \naccount offered at no additional \ncharge. You will be charged only \nfor use of other AWS services by \nyour users.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_2_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_2_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_2_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 3,
+            "text": "Users \n\u2022 A user in IAM is a user of the AWS account and is a user of the organization that \nuses the AWS account.  \n\u2022 A user in IAM can be a developer, a HR or any member of the organization using \nthe AWS account.  \n\u2022 A user can have AWS Management Console access or Programmatic access.  \n\u2022 A user can change his password after his first sign-in to the console based on the \npermissions given by the organization\u2019s cloud administrator. \n\u2022 A user uses username and password to login to the AWS Management Console. \n\u2022 A user uses access key id and secret access key to access AWS resources APIS via \nprogrammatic access. \n\u2022 A policy can be attached to the user to restrict the user actions in the AWS \naccount. \n\u2022 A user can be added to a group or can be an independent user of the AWS \naccount.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_3_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_3_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_3_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 4,
+            "text": "Groups \n\u2022 A group in an organization can be a collection of users such as HR Team or \nDevelopment Team or DevOps Team or Data Analyst Team and so on.  \n\u2022 A group in the AWS account is the same as that of a group in an \norganization.  \n\u2022 A group in the AWS account is a collection of IAM users performing the \nsame actions in the AWS account.  \n\u2022 For Eg: The HR team in the organization is using an S3 bucket to store \nresumes. Therefore IAM users are created in AWS IAM and added to a \ngroup called HR who have access to only S3 by the usage of policies. \n\u2022 A policy can be attached to a group to restrict access to AWS services for \nall members of the group.  \n\u2022 For Eg : All members of the developer IAM group can launch virtual \nmachines.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_4_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_4_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_4_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 5,
+            "text": "Roles \n\u2022 An IAM role is an IAM identity that you can create in your account that has \nspecific permissions. An IAM role is similar to an IAM user, in that it is an \nAWS identity with permission policies that determine what the identity can \nand cannot do in AWS. \n\u2022 However, instead of being uniquely associated with one person, a role is \nintended to be assumable by anyone who needs it. \n\u2022 In summary, a role can be used by any AWS resource or a person in order \nto perform actions with AWS resources. It provides the person or AWS \nresource temporary credentials which are refreshed every few minutes by \nAWS internally.  \n\u2022 A policy is attached to the role to define the actions that the role can do \nwith AWS resources that assumes that role.  \n\u2022 For Eg : An EC2 instance can assume a role to access S3 to download web \ncontent to serve users.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_5_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_5_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_5_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 6,
+            "text": "Policies \n\u2022 A policy is an entity that, when attached to an identity or resource, defines their \npermissions. Policies are stored in AWS as JSON documents and are attached to \nprincipals as identity-based policies in IAM.  \n\u2022 You can attach an identity-based policy to a principal (or identity), such as an IAM \ngroup, user, or role. Identity-based policies include AWS managed policies, \ncustomer managed policies, and inline policies. \n\u2022 Import \u2014 You can import a managed policy within your account and then edit \nthe policy to customize it to your specific requirements. A managed policy can be \nan AWS managed policy, or a customer managed policy that you created \npreviously. \n\u2022 Visual editor \u2014 You can construct a new policy from scratch in the visual editor. If \nyou use the visual editor, you do not have to understand JSON syntax. \n\u2022 JSON \u2014 In the JSON tab, you can create a policy using JSON syntax. You can type \na new JSON policy document or paste an example policy.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_6_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_6_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_6_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 7,
+            "text": "Policies \n\u2022 An IAM policy to provide administrator access to the AWS \naccount. \n{ \n    \"Version\": \"2012-10-17\", \n    \"Statement\": [ \n        { \n            \"Effect\": \"Allow\", \n            \"Action\": \"*\", \n            \"Resource\": \"*\" \n        } \n    ] \n} \n \nThe IAM policy has 5 elements \n\u2022\nVersion \n\u2022\nStatement \n\u2022\nEffect \u2013 Allow/Deny \n\u2022\nAction \n\u2022\nResource \n \nAn IAM policy has versions where an IAM \npolicy can have maximum up to 5 versions. \nThe 6th version replaces the 1st version \ncreated.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_7_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_7_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_7_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 8,
+            "text": "Types of Policies \n\u2022 An IAM policy can be of three types :  \n\u2022 AWS Managed Policy \u2013 There are many AWS managed policies in IAM that serve \nmost of the purposes for restricting access to AWS resources. The only \ndisadvantage is that there are not AWS managed policies for all customized \nactions on the AWS account. There comes in customer managed policies. These \npolicies can be applied across users, groups and roles. \n\u2022 Customer Managed Policy \u2013 An administrator can create his own customer \nmanaged policy with specific actions and conditions. It can be created using visual \neditor or JSON template. For Eg: Providing access to only writing content to a \nspecific folder within a specific AWS S3 bucket. These policies can be applied \nacross users, groups and roles.  \n\u2022 Inline Policy - An inline policy is a policy that's embedded in a principal entity (a \nuser, group, or role). An inline policy is applicable only to that specific user, group \nor role.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_8_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_8_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_8_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 9,
+            "text": "Features of IAM \n\u2022 Fine-grained access control to AWS resources \n\u2022 Multi-factor authentication for highly privileged users \n\u2022 Manage access control for mobile applications with Web \nIdentity Providers \n\u2022 Integrate with your corporate directory \n\u2022 Manage and control password policy \n\u2022 Create users, groups, roles \n\u2022 Attach custom policies to users, groups and roles \n\u2022 Enable and disable regions to use in the AWS account to \nlaunch resources",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_9_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_9_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_9_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 10,
+            "text": "Fine Grained Access Control \n\u2022 IAM enables your users to control access to AWS service APIs and to \nspecific resources. IAM also enables you to add specific \nconditions such as time of day to control how a user can use AWS, \ntheir originating IP address, whether they are using SSL, or whether \nthey have authenticated with a multi-factor authentication device. \n\u2022 The administrator managing the AWS account will be able to create \nusers and groups and attach custom policies or AWS managed policies \nto restrict the actions done by the user in the AWS management \nconsole or through AWS service APIs. \n\u2022 A policy is a JSON document with specific elements.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_10_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_10_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_10_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 11,
+            "text": "Multi-factor Authentication \n\u2022 Protect your AWS environment by using AWS MFA, a security feature \navailable at no extra cost that augments user name and password \ncredentials. MFA requires users to prove physical possession of a \nhardware MFA token or MFA-enabled mobile device by providing a \nvalid MFA code. \n\u2022 Use the following mobile application in the play store for android or \napp store for IOS devices to install the following application on your \nphone to authorize second level of security access to your AWS \naccount.  \n\u2022 Google Authenticator for android/iOS devices.  \n\u2022 Authenticator for windows devices.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_11_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_11_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_11_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 12,
+            "text": "Best Practices \nUsers \u2013 Create individual users. \nGroups \u2013 Manage permissions with groups. \nPermissions \u2013 Grant least privilege. \nAuditing \u2013 Turn on AWS CloudTrail. \nPassword \u2013 Configure a strong password policy. \nMFA \u2013 Enable MFA for privileged users. \nRoles \u2013 Use IAM roles for Amazon EC2 instances. \nSharing \u2013 Use IAM roles to share access. \nRotate \u2013 Rotate security credentials regularly. \nConditions \u2013 Restrict privileged access further with conditions. \nRoot \u2013 Reduce or remove use of root.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_12_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_12_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_12_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        },
+        {
+            "page": 13,
+            "text": "Demo - IAM \n\u2022 Create two users in IAM with AWS Management Console and Programmatic Access.  \n\u2022 These two users should be able to create new passwords for themselves on signing into \nthe AWS account. \n\u2022 Add these two users to the HR group. \n\u2022 Add a policy to the HR group to access AWS S3 service. Attach the AWS Managed policy \nAmazonS3FullAccess to the group.  \n\u2022 Login with any one of the user credentials to the AWS account and access S3 service \nand try accessing other services too and notice the difference.  \n\u2022 Remove or detach the managed policy from the group.  \n\u2022 Create a customer managed policy denoting the same access as that of the AWS \nmanaged policy for S3. Attach the customer managed policy to the IAM group called HR.  \n\u2022 Now try accessing the AWS S3 service as a user part of the HR group. \n\u2022 Install the AWS CLI. Configure the AWS CLI with the one of the user\u2019s credentials and try \naccessing the AWS S3 API\u2019s such as listing all buckets. \n\u2022 View password policy, Set up MFA and view the policy versions on the console.",
+            "images": [
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_13_img_1.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_13_img_2.png",
+                    "description": "Extracted image"
+                },
+                {
+                    "filename": "uploads\\AWS-IAM04132025-143147099571\\extracted_images\\page_13_img_3.jpeg",
+                    "description": "Extracted image"
+                }
+            ]
+        }
+    ]
+}
