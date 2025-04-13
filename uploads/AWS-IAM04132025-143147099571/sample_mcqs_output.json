@@ -1,0 +1,74 @@
+{
+    "mcqs": [
+        {
+            "question": "What is the primary function of AWS IAM?",
+            "options": [
+                "To provide compute resources for applications.",
+                "To manage access to AWS services and resources securely.",
+                "To store data in the cloud.",
+                "To monitor the performance of AWS services."
+            ],
+            "answer": "To manage access to AWS services and resources securely."
+        },
+        {
+            "question": "How are users authenticated when accessing the AWS Management Console?",
+            "options": [
+                "Access key ID and secret access key.",
+                "Certificate-based authentication.",
+                "Username and password.",
+                "Multi-factor authentication only."
+            ],
+            "answer": "Username and password."
+        },
+        {
+            "question": "What is the purpose of IAM groups?",
+            "options": [
+                "To provide cost allocation tags for AWS resources.",
+                "To collect IAM users performing the same actions in the AWS account.",
+                "To define network access control lists.",
+                "To manage billing alerts."
+            ],
+            "answer": "To collect IAM users performing the same actions in the AWS account."
+        },
+        {
+            "question": "How does an IAM role differ from an IAM user?",
+            "options": [
+                "A role is associated with a single person, while a user can be assumed by anyone.",
+                "A role is intended to be assumable by anyone who needs it, while a user is tied to a specific person.",
+                "A role has limited permissions, while a user has full access.",
+                "A role is free of charge, while a user incurs costs."
+            ],
+            "answer": "A role is intended to be assumable by anyone who needs it, while a user is tied to a specific person."
+        },
+        {
+            "question": "What is the cost associated with using AWS IAM?",
+            "options": [
+                "IAM is charged based on the number of users created.",
+                "IAM is charged based on the number of policies created.",
+                "IAM is a feature offered at no additional charge; you only pay for the AWS services used by your users.",
+                "IAM has a fixed monthly fee."
+            ],
+            "answer": "IAM is a feature offered at no additional charge; you only pay for the AWS services used by your users."
+        },
+        {
+            "question": "How do users access AWS resources programmatically?",
+            "options": [
+                "Using the AWS Management Console.",
+                "Using access key ID and secret access key.",
+                "Using SSH keys.",
+                "Using temporary security credentials."
+            ],
+            "answer": "Using access key ID and secret access key."
+        },
+        {
+            "question": "What is the function of a policy in AWS IAM?",
+            "options": [
+                "To define the billing cycle for AWS services.",
+                "To restrict user or role actions in the AWS account.",
+                "To monitor the health of AWS resources.",
+                "To automate the deployment of AWS applications."
+            ],
+            "answer": "To restrict user or role actions in the AWS account."
+        }
+    ]
+}
