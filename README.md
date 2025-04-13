@@ -1,5 +1,4 @@
-# PDF Processing API
-
+# ExamEdge Edging API
 This API provides endpoints for processing PDF files, generating summaries, and creating multiple-choice questions (MCQs) using Google's Gemini AI.
 
 ## Setup
